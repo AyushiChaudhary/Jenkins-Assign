@@ -14,16 +14,7 @@ pipeline {
 
     stages { 
 
-        stage('Checkout') { 
-
-            steps { 
-
-                git 'https://github.com/AyushiChaudhary/Jenkins-Assign.git' 
-
-            }
-
-        } 
-
+       
         stage('Docker build') { 
 
             steps { 
